@@ -1,3 +1,5 @@
+let prompt= require("prompt");
+
 //1 Commençons par créer quelques variable //
 
 let grid = [
@@ -26,7 +28,7 @@ let positionRover = "robot";
 // tableau vide dans lequel on push les directions //
 const historique = [];
 
-let prompt= require("prompt");
+
 prompt.get("entrer des instructions", function (err, res) {
   
 	// function qui contiens un string du depacement complet example "NFEFSF" Nord forward Est forward Sud forward //
